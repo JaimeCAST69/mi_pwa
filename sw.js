@@ -1,14 +1,14 @@
 const cacheName = "cache-offline-v1";
 const filesoffline = [
-  "/",
-  "/index.html",
-  "/pages/electronica.html",
-  "/pages/limpieza.html",
-  "/styles.css",
-  "/main.js",
-  "/manifest.json",
-  "/img/192.png",
-  "/img/512.png"
+  "./",
+  "./index.html",
+  "./styles.css",
+  "./main.js",
+  "./manifest.json",
+  "./img/192.png",
+  "./img/512.png",
+  "./pages/electronica.html",
+  "./pages/limpieza.html"
 ];
 
 self.addEventListener("install", event => {
